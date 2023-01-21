@@ -29,11 +29,16 @@ btn.addEventListener("click", () => {
                  ` ;
                  sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
                  console.log(sound);
-    });    
+                })    
+    .catch(() => {
+        result.innerHTML = ` <h3 class="error">Couldn't Find the word</h3>`;
+    });
 });
 
 
-
+function playSound(){
+    sound.play();
+}
 
 
 
