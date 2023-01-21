@@ -42,9 +42,51 @@ body{
     border-radius: 5px;
 }
 
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 20px;
+    color:rgba(23, 43, 21, 0);
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
 
 
 
+
+.result button{
+    background-color: transparent;
+    color: #125641;
+    border: none;
+    outline: none;
+    font-size: 19px;
+}
+
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: #b3b64b;
+    margin: 5px 0 20px 0;
+    font-size: 17px;
+}
+
+.word-meaning{
+    color: #575757;
+}
+
+.word-example{
+    color: #575757;
+    font-style: italic;
+    border-left: 2px solid #ae54ae;
+    padding-left: 10px;
+    margin-top: 20px;
+}
 
 
 
